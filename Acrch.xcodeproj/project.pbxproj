@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1DE53001D6ECE8FFCC8E64 /* Pods_Acrch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5C4642B3AB7A9205E5F9D0 /* Pods_Acrch.framework */; };
 		C80AF50A29A3EA1D000CA9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80AF50929A3EA1D000CA9FC /* AppDelegate.swift */; };
 		C80AF50C29A3EA1D000CA9FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80AF50B29A3EA1D000CA9FC /* SceneDelegate.swift */; };
 		C80AF50E29A3EA1D000CA9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80AF50D29A3EA1D000CA9FC /* ViewController.swift */; };
-		C80AF51129A3EA1D000CA9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80AF50F29A3EA1D000CA9FC /* Main.storyboard */; };
 		C80AF51329A3EA1E000CA9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80AF51229A3EA1E000CA9FC /* Assets.xcassets */; };
 		C80AF51629A3EA1E000CA9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80AF51429A3EA1E000CA9FC /* LaunchScreen.storyboard */; };
+		C80AF52329A41584000CA9FC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80AF52229A41584000CA9FC /* ViewModel.swift */; };
+		C80AF55429A4E9A0000CA9FC /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80AF55329A4E9A0000CA9FC /* Comments.swift */; };
+		C80AF55629A4EDFD000CA9FC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80AF55529A4EDFD000CA9FC /* MainVC.swift */; };
+		C827349F29A62B9E00AA0324 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C827349E29A62B9E00AA0324 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6707BAE5A2E97EE20FD9D9BC /* Pods-Acrch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acrch.debug.xcconfig"; path = "Target Support Files/Pods-Acrch/Pods-Acrch.debug.xcconfig"; sourceTree = "<group>"; };
+		8361231F5BB181BA586A97C1 /* Pods-Acrch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acrch.release.xcconfig"; path = "Target Support Files/Pods-Acrch/Pods-Acrch.release.xcconfig"; sourceTree = "<group>"; };
+		9E5C4642B3AB7A9205E5F9D0 /* Pods_Acrch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acrch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80AF50629A3EA1D000CA9FC /* Acrch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acrch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80AF50929A3EA1D000CA9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C80AF50B29A3EA1D000CA9FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C80AF50D29A3EA1D000CA9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C80AF51029A3EA1D000CA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C80AF51229A3EA1E000CA9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C80AF51529A3EA1E000CA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C80AF51729A3EA1E000CA9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80AF52229A41584000CA9FC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C80AF55329A4E9A0000CA9FC /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		C80AF55529A4EDFD000CA9FC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C827349E29A62B9E00AA0324 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1DE53001D6ECE8FFCC8E64 /* Pods_Acrch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1269BB7533E73057A76B15B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6707BAE5A2E97EE20FD9D9BC /* Pods-Acrch.debug.xcconfig */,
+				8361231F5BB181BA586A97C1 /* Pods-Acrch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA4FFEB7E7001EEC08F37405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5C4642B3AB7A9205E5F9D0 /* Pods_Acrch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C80AF4FD29A3EA1D000CA9FC = {
 			isa = PBXGroup;
 			children = (
 				C80AF50829A3EA1D000CA9FC /* Acrch */,
 				C80AF50729A3EA1D000CA9FC /* Products */,
+				B1269BB7533E73057A76B15B /* Pods */,
+				BA4FFEB7E7001EEC08F37405 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,48 @@
 			children = (
 				C80AF50929A3EA1D000CA9FC /* AppDelegate.swift */,
 				C80AF50B29A3EA1D000CA9FC /* SceneDelegate.swift */,
-				C80AF50D29A3EA1D000CA9FC /* ViewController.swift */,
-				C80AF50F29A3EA1D000CA9FC /* Main.storyboard */,
+				C80AF51E29A40A20000CA9FC /* Model */,
+				C80AF51D29A40A17000CA9FC /* View */,
+				C80AF51F29A40A39000CA9FC /* ViewModel */,
 				C80AF51229A3EA1E000CA9FC /* Assets.xcassets */,
 				C80AF51429A3EA1E000CA9FC /* LaunchScreen.storyboard */,
 				C80AF51729A3EA1E000CA9FC /* Info.plist */,
 			);
 			path = Acrch;
+			sourceTree = "<group>";
+		};
+		C80AF51D29A40A17000CA9FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C80AF55529A4EDFD000CA9FC /* MainVC.swift */,
+				C80AF50D29A3EA1D000CA9FC /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C80AF51E29A40A20000CA9FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C80AF55329A4E9A0000CA9FC /* Comments.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C80AF51F29A40A39000CA9FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C80AF55229A4E4EA000CA9FC /* Binding */,
+				C80AF52229A41584000CA9FC /* ViewModel.swift */,
+				C827349E29A62B9E00AA0324 /* Network.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C80AF55229A4E4EA000CA9FC /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C80AF51A29A3EA1E000CA9FC /* Build configuration list for PBXNativeTarget "Acrch" */;
 			buildPhases = (
+				9232F118297E82797A5289FC /* [CP] Check Pods Manifest.lock */,
 				C80AF50229A3EA1D000CA9FC /* Sources */,
 				C80AF50329A3EA1D000CA9FC /* Frameworks */,
 				C80AF50429A3EA1D000CA9FC /* Resources */,
+				5FCEA5E0D4271921B3DF35D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +194,52 @@
 			files = (
 				C80AF51629A3EA1E000CA9FC /* LaunchScreen.storyboard in Resources */,
 				C80AF51329A3EA1E000CA9FC /* Assets.xcassets in Resources */,
-				C80AF51129A3EA1D000CA9FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FCEA5E0D4271921B3DF35D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acrch/Pods-Acrch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acrch/Pods-Acrch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Acrch/Pods-Acrch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9232F118297E82797A5289FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Acrch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C80AF50229A3EA1D000CA9FC /* Sources */ = {
@@ -139,22 +247,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C80AF50E29A3EA1D000CA9FC /* ViewController.swift in Sources */,
+				C80AF55629A4EDFD000CA9FC /* MainVC.swift in Sources */,
 				C80AF50A29A3EA1D000CA9FC /* AppDelegate.swift in Sources */,
+				C827349F29A62B9E00AA0324 /* Network.swift in Sources */,
 				C80AF50C29A3EA1D000CA9FC /* SceneDelegate.swift in Sources */,
+				C80AF52329A41584000CA9FC /* ViewModel.swift in Sources */,
+				C80AF55429A4E9A0000CA9FC /* Comments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C80AF50F29A3EA1D000CA9FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C80AF51029A3EA1D000CA9FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C80AF51429A3EA1E000CA9FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +386,7 @@
 		};
 		C80AF51B29A3EA1E000CA9FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6707BAE5A2E97EE20FD9D9BC /* Pods-Acrch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +397,6 @@
 				INFOPLIST_FILE = Acrch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,14 +406,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eLu.Acrch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C80AF51C29A3EA1E000CA9FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8361231F5BB181BA586A97C1 /* Pods-Acrch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +428,6 @@
 				INFOPLIST_FILE = Acrch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,9 +437,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eLu.Acrch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
